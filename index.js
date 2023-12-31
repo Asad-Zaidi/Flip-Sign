@@ -3,6 +3,4 @@ function toggleSign(value) {
         throw new Error('Input must be a number');
     }
     return -value;
-}
-
-console.log(toggleSign(-8));
+};
